@@ -1,5 +1,6 @@
 import 'package:first/widgets/login_field.dart';
 import 'package:first/widgets/social_button.dart';
+import 'package:first/widgets/gradient_button.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -33,9 +34,12 @@ class LoginScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 15,),
-            const LoginField(
-              hintText: 'Email'
-            )
+            const LoginField(hintText: 'Email'),
+            const SizedBox(height: 15,),
+            const LoginField(hintText: 'Password'),
+            const SizedBox(height: 20,),
+            const GradientButton(),
+            const SizedBox(height: 20,),
           ],
           )
         )
