@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Pallete.backgroundColor,
       ),
       home: const LoginScreen(),
+      debugShowCheckedModeBanner: false,
     );
     
   }
